@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Description" content="Author: A.N. Author, 
+    Illustrator: P. Picture, Category: Books, Price: $17.99, 
+    Length: 784 pages">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  <title>Advanced PWA</title>
+
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/static/css/style.css" />
+
+
+    <!-- icon in the highest resolution we need it for -->
+  <link rel="icon" sizes="192x192" href="/static/images/icon-192.png">
+
+  <!-- reuse same icon for Safari -->
+  <link rel="apple-touch-icon" href="/static/images/icon-128.png">
+
+  <!-- multiple icons for IE -->
+  <meta name="msapplication-square310x310logo" content="icon_largetile.png">
+</head>
+<body>
+  
+  <div id="app"></div>
+
+  <h1>Storage cotas</h1>
+  <progress id="quotas"></progress>
+  <span id="quotas-usage">Calculing Device Usage!</span>
+
+
+  <h1>Touch Gesture</h1>
+  <div class="container">
+    <div class="box">
+      <h1>Jeans</h1>
+    </div>
+    <div class="box">
+      <h1>Jeans</h1>
+    </div>
+    <div class="box">
+      <h1>Jeans</h1>
+    </div>
+    <div class="box">
+      <h1>Jeans</h1>
+    </div>
+
+    
+  </div>
+
+  <h1>Rec Fone</h1>
+  <button id="startred">Start Rec</button>
+  <div id="resultrec">Nenhuma gravacao</div>
+
+  <script src="/static/js/index.js"></script>
+  <script src="/static/js/quotas.js"></script>
+  <script src="/static/js/speed-recognition.js"></script>
+</body>
+</html>
