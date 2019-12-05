@@ -22,6 +22,7 @@ if (window.SpeechRecognition === null) {
 
         if (e.results[i].isFinal) {
           resultRec.innerText += wordStr + " Convicção: " + e.results[i][0].confidence;  
+          isRec = false;
         } else {
           resultRec.innerText += wordStr;
         }
