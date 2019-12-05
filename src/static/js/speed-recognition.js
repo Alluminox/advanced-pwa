@@ -21,7 +21,7 @@ if (window.SpeechRecognition === null) {
         const wordStr = e.results[i][0].transcript;
 
         if (e.results[i].isFinal) {
-          resultRec.innerText += wordStr + "Convicção: " + e.results[i].confiddence;  
+          resultRec.innerText += wordStr + " Convicção: " + e.results[i][0].confidence;  
         } else {
           resultRec.innerText += wordStr;
         }
