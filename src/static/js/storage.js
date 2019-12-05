@@ -1,5 +1,8 @@
-const value = '';
-const key = '';
+const value = {
+  name: 'Username',
+  email: 'email@email.com'
+};
+const key = 'localKey';
 
 if ('localStorage' in window) {
 
